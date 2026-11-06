@@ -149,14 +149,17 @@ Carla dio su email, pero **no pidió que le escribieran**, así que Bera no envi
 
 | Captura | Qué se ve |
 | --- | --- |
-| [`evidencias/workflow-activo.png`](evidencias/workflow-activo.png) | El workflow **"Agente Final · Bera (Gi Barberi)"** publicado y activo en n8n |
-| [`evidencias/ejecucion-exitosa.png`](evidencias/ejecucion-exitosa.png) | La ejecución **#253** en el historial de *Executions*: el input (el mensaje de Carla), el output (la respuesta de Bera) y la duración |
+| [`evidencias/workflow-activo.png`](evidencias/workflow-activo.png) | El workflow **"Agente Final · Bera (Gi Barberi)"** con el indicador verde **Published** (activo en producción) |
+| [`evidencias/ejecucion-exitosa.png`](evidencias/ejecucion-exitosa.png) | La ejecución **#253** en el historial de *Executions*: **Succeeded in 9.501s**, el camino recorrido en verde y el workflow en estado *Published* |
+| [`evidencias/ejecucion-exitosa-detalle.png`](evidencias/ejecucion-exitosa-detalle.png) | El nodo AI Agent de la ejecución #253: **input** ("Sí, ese es mi email. Mandalo.", sesión `carla-sol-final`) y **output** (la confirmación de que envió el correo) |
 | [`evidencias/prueba-conversacion-1-2.png`](evidencias/prueba-conversacion-1-2.png) | Los mensajes 1 y 2 enviados a la Production URL desde PowerShell, con las respuestas |
 | [`evidencias/prueba-conversacion-3.png`](evidencias/prueba-conversacion-3.png) | El mensaje 3: la confirmación y la respuesta de que el correo se envió |
 
 ![Workflow activo](evidencias/workflow-activo.png)
 
 ![Ejecución exitosa](evidencias/ejecucion-exitosa.png)
+
+![Input y output de la ejecución 253](evidencias/ejecucion-exitosa-detalle.png)
 
 ![Prueba: mensajes 1 y 2](evidencias/prueba-conversacion-1-2.png)
 
